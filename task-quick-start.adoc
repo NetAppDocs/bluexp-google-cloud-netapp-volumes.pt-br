@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: task-quick-start.html 
+keywords: set up google cloud netapp volumes, quick start 
+summary: Comece a usar o Google Cloud NetApp Volumes configurando o Google Cloud e criando um ambiente de trabalho. 
+---
+= Fluxo de trabalho de introdução
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Comece a usar o Google Cloud NetApp Volumes configurando o Google Cloud e, em seguida, criando um ambiente de trabalho.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Um"] link:task-set-up-gcnv.html["Configurar o Google Cloud NetApp Volumes"]
+[role="quick-margin-para"]
+No Google, crie uma conta de serviço.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Dois"] link:task-create-working-env.html["Adicionar um ambiente de trabalho"]
+[role="quick-margin-para"]
+No BlueXP, clique em *Adicionar ambiente de trabalho* > *Google Cloud Platform* > * Google Cloud NetApp Volumes* > *Descobrir* e forneça detalhes sobre a conta de serviço e o projeto do Google Cloud.

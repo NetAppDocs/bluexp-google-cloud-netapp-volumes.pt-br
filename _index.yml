@@ -1,0 +1,32 @@
+---
+indexpage:
+  title: Documentação do Google Cloud NetApp Volumes
+  summary: O Google Cloud NetApp Volumes permite que as empresas migrem e executem
+    seus aplicativos essenciais para os negócios, com alto desempenho e sensíveis
+    à latência, no Google, sem a necessidade de refatoração para a nuvem. Esta documentação
+    descreve como configurar e gerenciar o Google Cloud NetApp Volumes usando o NetApp
+    BlueXP.
+  keywords: Google Cloud NetApp Volumes, BlueXP
+  lead: O Google Cloud NetApp Volumes permite que as empresas migrem e executem seus
+    aplicativos essenciais para os negócios, com alto desempenho e sensíveis à latência,
+    no Google, sem a necessidade de refatoração para a nuvem. Esta documentação descreve
+    como configurar e gerenciar o Google Cloud NetApp Volumes usando o NetApp BlueXP.
+  tiles:
+  - title: Comece agora
+    links:
+    - title: Saiba mais sobre o Google Cloud NetApp Volumes
+      url: concept-gcnv.html
+    - title: Início rápido
+      url: task-quick-start.html
+  - title: Usar o Google Cloud NetApp Volumes
+    links:
+    - title: Gerenciar volumes
+      url: task-manage-volumes.html
+  - title: Blogs & comunidade
+    links:
+    - title: Comunidade NetApp
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: BlueXP  blog
+      url: https://cloud.netapp.com/blog
+    - title: Webinars na nuvem
+      url: https://cloud.netapp.com/events

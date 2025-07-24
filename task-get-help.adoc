@@ -11,7 +11,7 @@ summary: 'O NetApp fornece suporte para BlueXP  de várias maneiras. Amplas op�
 
 
 [role="lead"]
-A NetApp oferece suporte ao BlueXP  e seus serviços de nuvem de várias maneiras. Amplas opções gratuitas de suporte autônomo estão disponíveis 24 horas por dia, 7 dias por semana, como artigos da base de conhecimento (KB) e um fórum da comunidade. O seu registo de suporte inclui suporte técnico remoto através de Bilheteira na Web.
+A NetApp oferece suporte para o BlueXP e seus serviços de nuvem de diversas maneiras. Oferecemos amplas opções gratuitas de autossuporte 24 horas por dia, 7 dias por semana, como artigos da base de conhecimento (KB) e um fórum da comunidade. Seu cadastro no suporte inclui suporte técnico remoto por meio de tickets online.
 
 
 
@@ -21,7 +21,7 @@ Para obter suporte técnico relacionado a um serviço de arquivo de provedor de 
 
 * link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/start/concept-fsx-aws.html#getting-help["Amazon FSX para ONTAP"^]
 * link:https://docs.netapp.com/us-en/bluexp-azure-netapp-files/concept-azure-netapp-files.html#getting-help["Azure NetApp Files"^]
-* link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-service-gcp/concept-cvs-gcp.html#getting-help["Cloud Volumes Service para Google Cloud"^]
+* link:https://docs.netapp.com/us-en/bluexp-google-cloud-netapp-volumes/concept-gcnv.html#getting-help["Google Cloud NetApp volumes"^]
 
 
 Para receber suporte técnico específico da BlueXP  e de suas soluções e serviços de storage, use as opções de suporte descritas abaixo.

@@ -22,30 +22,34 @@ O BlueXP precisa das permissões corretas por meio de uma conta de serviço do G
 
 Conclua as tarefas a seguir para que o BlueXP  possa acessar seu projeto do Google Cloud:
 
-* Crie uma nova conta de serviço
-* Adicione o novo membro da conta de serviço ao seu projeto e atribua funções específicas de TI (permissões)
-* Crie e faça o download de um par de chaves para a conta de serviço que é usada para autenticar no Google
+* Se você ainda não tiver uma conta de serviço, crie uma nova.
+* Adicione o membro da conta de serviço ao seu projeto e atribua a ele funções específicas (permissões).
+* Crie e baixe um par de chaves para a conta de serviço usada para autenticação no Google.
 
 
 .Passos
 . No console do Google Cloud, https://console.cloud.google.com/iam-admin/serviceaccounts["Vá para a página Contas de Serviço"^].
 . Clique em *Selecione um projeto*, escolha seu projeto e clique em *abrir*.
-. Clique em *criar conta de serviço*.
-. Introduza o nome da conta de serviço (nome de apresentação amigável) e a descrição.
+. (Opcional) Para criar uma conta de serviço, faça o seguinte:
++
+.. Clique em *criar conta de serviço*.
+.. Introduza o nome da conta de serviço (nome de apresentação amigável) e a descrição.
 +
 O Cloud Console gera um ID de conta de serviço com base nesse nome. Edite a ID se necessário - não é possível alterar a ID mais tarde.
 
-. Para definir os controles de acesso agora, clique em *criar* e depois em *CONCLUÍDO* na parte inferior da página e continue para a próxima etapa.
+.. Para definir os controles de acesso agora, clique em *criar* e depois em *CONCLUÍDO* na parte inferior da página e continue para a próxima etapa.
+
+
 . Na página _IAM_ clique em *Add* e preencha os campos na página _Add Members_:
 +
 .. No campo novos membros, insira o ID completo da conta de serviço.
 +
 Por exemplo: user1-service-account-gcnv@project1.iam.gserviceaccount.com
 
-.. Adicione estas funções:
+.. Adicione uma destas funções:
 +
-*** _Administrador de volumes do Google Cloud NetApp
-*** _Visualizador do Google Cloud NetApp
+*** _Administrador de volumes do Google Cloud NetApp OU
+*** _Visualizador de volumes do Google Cloud NetApp
 
 
 .. Clique em *Salvar*.

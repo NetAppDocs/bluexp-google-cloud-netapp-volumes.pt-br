@@ -197,9 +197,6 @@
   <block id="635d606b676b3f92a6204c15ecb1d666" category="paragraph">O BlueXP precisa das permissões corretas por meio de uma conta de serviço do Google Cloud.</block>
   <block id="ec8725380aa2f688c9b9d45557c44600" category="section-title">Configure uma conta de serviço</block>
   <block id="b87ecb1d933b8e5835c8e93327f7676e" category="paragraph">Conclua as tarefas a seguir para que o BlueXP  possa acessar seu projeto do Google Cloud:</block>
-  <block id="cb939d621f46e6895da8fb3a52fbcf83" category="list-text">Crie uma nova conta de serviço</block>
-  <block id="172cabf35e2da2e485725633d4544c4b" category="list-text">Adicione o novo membro da conta de serviço ao seu projeto e atribua funções específicas de TI (permissões)</block>
-  <block id="b8da17ea9f82689a4cc87ac02b337328" category="list-text">Crie e faça o download de um par de chaves para a conta de serviço que é usada para autenticar no Google</block>
   <block id="ab6fcc124e86604f6bab5da13aaea51a" category="inline-link">Vá para a página Contas de Serviço</block>
   <block id="7dc4b63dc4834aecd751b91ed3de3d39" category="list-text">No console do Google Cloud,<block ref="72863ecd427c906452e0c3d21111bdac" category="inline-link-rx"></block>.</block>
   <block id="e4ca5adc5a86c098ce9d6bd2f42dc178" category="list-text">Clique em *Selecione um projeto*, escolha seu projeto e clique em *abrir*.</block>
@@ -210,7 +207,6 @@
   <block id="4bd66ea95ac91bc82cdc097c3614f96c" category="list-text">Na página _IAM_ clique em *Add* e preencha os campos na página _Add Members_:</block>
   <block id="8d549e601fd570fd51b0bddb07a08462" category="list-text">No campo novos membros, insira o ID completo da conta de serviço.</block>
   <block id="1d172c52399b8bfd31a6c902f515b82d" category="paragraph">Por exemplo: user1-service-account-gcnv@project1.iam.gserviceaccount.com</block>
-  <block id="e6915ea331526f7f3221d5b019733157" category="list-text">Adicione estas funções:</block>
   <block id="4cc186df234138a57b2e8c5d8e5f7f8d" category="list-text">Clique em *Salvar*.</block>
   <block id="1baa368f450d37450a1cb47c6b7dd320" category="list-text">Clique no nome da conta de serviço e, em seguida, na página _Detalhes da conta de serviço_, clique em *Adicionar chave &gt; criar nova chave*.</block>
   <block id="744132d4bfa3718f3315f6d3187cba60" category="list-text">Selecione *JSON* como o tipo de chave e clique em *Create*.</block>
@@ -313,10 +309,15 @@
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Conhecimento e apoio</block>
   <block id="bbbc9b55f08bfe80f146b5207bdb7728" category="paragraph">A NetApp oferece suporte para o BlueXP e seus serviços de nuvem de diversas maneiras. Oferecemos amplas opções gratuitas de autossuporte 24 horas por dia, 7 dias por semana, como artigos da base de conhecimento (KB) e um fórum da comunidade. Seu cadastro no suporte inclui suporte técnico remoto por meio de tickets online.</block>
   <block id="cb4bf32603c89d08cad17e7e7dd302f2" category="list-text"><block ref="cb4bf32603c89d08cad17e7e7dd302f2" category="inline-link-macro-rx"></block></block>
-  <block id="a7c3b0d14336dd0504cb500448a6af93" category="list-text">_Administrador de volumes do Google Cloud NetApp</block>
-  <block id="9e772ef6b5ccecb14c212b186c0c7314" category="list-text">_Visualizador do Google Cloud NetApp</block>
   <block id="c1dba337436d468a67c1c9656a885d2a" category="inline-link-macro">Funções e permissões do Google Cloud NetApp Volumes</block>
   <block id="d25ce7990f7fb194c21d862125556340" category="list-text"><block ref="d25ce7990f7fb194c21d862125556340" category="inline-link-macro-rx"></block></block>
   <block id="759d32287efdf88cd8ac71dccc0ecf8d" category="inline-image-macro">Uma captura de tela que mostra um número de série da conta, uma caixa de seleção verde e o texto Registrado para suporte.</block>
   <block id="4c441b388bebcddf8c08fb782095b864" category="paragraph"><block ref="4c441b388bebcddf8c08fb782095b864" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2029481d0277679de049fed89280e080" category="list-text">Se você ainda não tiver uma conta de serviço, crie uma nova.</block>
+  <block id="6e894315b1b31d63ff57c4e16a459889" category="list-text">Adicione o membro da conta de serviço ao seu projeto e atribua a ele funções específicas (permissões).</block>
+  <block id="4c32d215a32f06bbc02ceaeed3828a5b" category="list-text">Crie e baixe um par de chaves para a conta de serviço usada para autenticação no Google.</block>
+  <block id="b721bffff3c288c0d6fe62dae9a7f5cb" category="list-text">(Opcional) Para criar uma conta de serviço, faça o seguinte:</block>
+  <block id="0a2be9e155b7a35429d8207201437a43" category="list-text">Adicione uma destas funções:</block>
+  <block id="af76aae9134ddcda5d6f5f3c80e43816" category="list-text">_Administrador de volumes do Google Cloud NetApp OU</block>
+  <block id="583f7e9208c61bd50e0d1e4d972cecda" category="list-text">_Visualizador de volumes do Google Cloud NetApp</block>
 </blocks>
